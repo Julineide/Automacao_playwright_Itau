@@ -1,0 +1,14 @@
+# Ambientes virtuais e cache
+__pycache__/
+*.py[cod]
+
+# Configurações e Senhas (SENSÍVEL)
+.env
+
+# Logs e arquivos temporários
+historico_execucao.txt
+*.log
+
+# Arquivos de dados (Excel)
+*.xlsx
+*.xls
