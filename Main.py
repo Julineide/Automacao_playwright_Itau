@@ -14,7 +14,7 @@ def main():
 
     arquivo_vdo = os.path.join(pasta, "Itau_ultimos_registros.xlsx")
     arquivo_goal = os.path.join(pasta, "Itau_instalacoes_atendidas.xlsx")
-    arquivo_principal = os.path.join(pasta, "Relatório_Placas Sem Sinal_Status Itau.xlsx")
+    arquivo_principal = os.path.join(pasta, "Relatório_Placas_Itau_automatizada.xlsx")
 
     print("1) Iniciando downloads (VDO e GOAL)...")
     baixar_itau_base(arquivo_vdo, arquivo_goal)
